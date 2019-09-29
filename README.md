@@ -1,7 +1,7 @@
 # client-server-work
 Aplicação em C de Cliente-Servidor usando Threads e Sockets
 
-Para compilar e executar o `client.c` usar a seguinte comando no terminal:
+Para compilar e executar o `client.c` usar os seguintes comandos no terminal:
 
 **Compilar:**
 ```
@@ -12,7 +12,7 @@ Para compilar e executar o `client.c` usar a seguinte comando no terminal:
  ./client
 ```
 
-Para compilar e executar o `type_a_server.c` usar a seguinte comando no terminal:
+Para compilar e executar o `type_a_server.c` usar os seguintes comandos no terminal:
 
 **Compilar:**
 ```
@@ -24,7 +24,7 @@ gcc -pthread -o type_a_server type_a_server.c
 ./type_a_server
 ```
 
-Para compilar e executar o `type_c_server.c` usar a seguinte comando no terminal:
+Para compilar e executar o `type_c_server.c` usar os seguintes comandos no terminal:
 
 **Compilar:**
 ```
