@@ -49,7 +49,6 @@ void *enviar_receber(void *arg)
         if (strcmp(buffer_client, "hora") == 0)
         {
 
-            //write(*clienteSockfd, buffer_client, sizeof(buffer_client));
             send(*clienteSockfd, buffer_client, sizeof(buffer_client),0);
             read(*clienteSockfd, buffer_resposta, sizeof(buffer_resposta));
 
